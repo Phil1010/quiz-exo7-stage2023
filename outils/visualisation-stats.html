@@ -113,11 +113,11 @@
                 row.appendChild(userNameCell);
 
                 var noteCell = document.createElement('td');
-                noteCell.textContent = stat.note;
+                noteCell.textContent = stat.note + "/100";
                 row.appendChild(noteCell);
 
                 var timeSpentCell = document.createElement('td');
-                timeSpentCell.textContent = stat.elapsedTime;
+                timeSpentCell.textContent = stat.elapsedTime + " sec";
                 row.appendChild(timeSpentCell);
 
                 var resultsCell = document.createElement('td');
